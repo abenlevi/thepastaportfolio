@@ -1,0 +1,72 @@
+<!-- CONTACT -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/portfoliostylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Page</title>
+  </head>
+<body>
+    <div class="skip"><a href="#main">Jump to Content</a></div>
+    <div class="nav">
+      <nav> 
+        <ul> 
+          <li><i class="fa fa-home fa-fw" aria-hidden="true"></i><br><a href="index.html">Home</a></li>
+          <li><i class="fa fa-picture-o fa-fw" aria-hidden="true"></i><br><a href="photos.html">Photos</a></li>
+          <li><i class="fa fa-cutlery fa-fw" aria-hidden="true"></i><br><a href="recipes.html">Recipes</a></li>
+          <li><i class="fa fa-list-alt fa-fw" aria-hidden="true"></i><br><a href="nutrition.html">Nutrition</a></li>
+          <li><i id = "current" class="fa fa-pencil-square-o" aria-hidden="true"></i><br><a class= "current" href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+    <header id="main">
+    <h1>Contact Me!</h1>
+    <h2>Questions? Concerns? Comments?<br>Or just want to say hello?<br>Leave me a message below!</h2>
+    </header>
+    <img id = "contact" class = "zoom" src="images/contact.jpg" alt= "Contact Icons">
+    <h3>Enter Your Information Below:</h3>
+    <form action="https://formspree.io/mvoozlpj" method = "POST">
+      <fieldset>
+      <div class="container2">
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="John">
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Smith">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email@umich.edu">
+      </div>
+      <div>
+        <label for="student">Are you an SI Student?:</label>
+        <select id="student" name="student">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div>
+        <label for="subject">Your Message:</label>
+        <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+    </fieldset>
+  </form>
+  </main>
+    <footer>
+      <p>SI 339 Individual Portofolio <br/>
+      Alison Ben-Levi<br/>
+      <a href="contact.html">Contact Me!</a>
+    </p>
+    </footer>
+</body>
+</html>
